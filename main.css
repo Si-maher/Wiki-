@@ -62,3 +62,11 @@ body {
     border-radius: 0.5rem;
     box-shadow:5px 50px 50px 5px var(--darkGreen) ;
 }
+.search-item__title {
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+}
+.search-item__text {
+    margin: 0.5rem 0;
+    letter-spacing: 0.2rem;
+}
