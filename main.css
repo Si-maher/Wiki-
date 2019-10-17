@@ -10,3 +10,15 @@ box-sizing: border-box;
     --brown:#91785d;
     --darkGreen:#869d7a
 }
+
+body {
+    display: grid;
+    grid-template-columns: 80%;
+    justify-content: center;
+    margin-top: 3rem;
+    text-align: center;
+    background: var(--lightBlue);
+
+}
+
+
