@@ -32,3 +32,33 @@ body {
     text-transform: uppercase;
     outline: none;
 }
+.main-btn {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    font-size: 2rem;
+    border-radius: 0.25rem;
+    text-transform: capitalize;
+    background: transparent;
+    color: var(--brown);
+    border: 0.15rem solid var(--brown);
+    transition: all 0.3s linear;
+}
+.main-btn:hover {
+    background: var(--brown);
+    color: var(--lightBlue);
+}
+.wait-icon {
+    display: none;
+}
+.search-item {
+    text-align: left;
+    list-style-type: none;
+    border: 0.05rem solid var(--darkGreen);
+    padding: 1rem;
+    margin: 1rem 0;
+    background: var(--lightGreen);
+    border-radius: 0.5rem;
+    box-shadow:5px 50px 50px 5px var(--darkGreen) ;
+}
