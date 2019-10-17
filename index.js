@@ -1,4 +1,14 @@
 // Variables 
 
 const input = document.querySelector('.main-search')
-const swarchBtn = document.querySelector('.main-btn')
+const searchBtn = document.querySelector('.main-btn')
+
+// Events 
+
+searchBtn.addEventListener('click', searchWiki)
+
+// Functions 
+
+function searchWiki(event) {
+    event.preventDefault()
+}
