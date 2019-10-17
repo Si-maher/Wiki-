@@ -51,6 +51,10 @@ body {
 }
 .wait-icon {
     display: none;
+    margin: 1rem auto;
+}
+.show {
+    display: none;
 }
 .search-item {
     text-align: left;

@@ -11,4 +11,15 @@ searchBtn.addEventListener('click', searchWiki)
 
 function searchWiki(event) {
     event.preventDefault()
+    showGif()
+}
+
+// Show / hide gif 
+
+function showGif ( value) {
+    if (value === 'show') {
+        document.querySelector('.wait-icon').classList.add('show')
+    } else if(value === 'hide') {
+        document.querySelector('.wait-icon').classList.remove('show')
+    }
 }
