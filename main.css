@@ -21,4 +21,14 @@ body {
 
 }
 
-
+.main-search {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 0.25rem solid var(--brown);
+    font-size: 3rem;
+    padding: 0.5rem 0;
+    color: var(--brown);
+    text-transform: uppercase;
+    outline: none;
+}
