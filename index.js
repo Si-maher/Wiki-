@@ -12,6 +12,14 @@ searchBtn.addEventListener('click', searchWiki)
 function searchWiki(event) {
     event.preventDefault()
     showGif()
+    let searchValue = input.value
+
+   const originApi = 'https://en.wikipedia.org'
+   const url = `${originApi}/w/api.php?action=query&origin=*&format=json&list=search&search=${searchValue}`
+   fetch(url).then(function(data) {
+       console.log(data);
+       
+   })
 }
 
 // Show / hide gif 
