@@ -5,10 +5,10 @@ box-sizing: border-box;
 }
 
 :root {
-    --lightBlue:#A7cdbd;
-    --lightGreen:#bbe1c3;
-    --brown:#91785d;
-    --darkGreen:#869d7a
+    --lightBlue:#f4f4f4;
+    --lightGreen:#fff;
+    --brown:#555555;
+    --darkGreen:#efefef
 }
 
 body {
@@ -46,8 +46,10 @@ body {
     transition: all 0.3s linear;
 }
 .main-btn:hover {
-    background: var(--brown);
-    color: var(--lightBlue);
+    
+    -webkit-box-shadow: inset -1px 7px 33px 5px rgba(0,0,0,0.75);
+-moz-box-shadow: inset -1px 7px 33px 5px rgba(0,0,0,0.75);
+box-shadow: inset -1px 7px 33px 5px rgba(0,0,0,0.75);
 }
 .wait-icon {
     display: none;
@@ -64,7 +66,9 @@ body {
     margin: 1rem 0;
     background: var(--lightGreen);
     border-radius: 0.5rem;
-    box-shadow:5px 50px 50px 5px var(--darkGreen) ;
+    -webkit-box-shadow: inset -1px 7px 33px 5px rgba(0,0,0,0.75);
+-moz-box-shadow: inset -1px 7px 33px 5px rgba(0,0,0,0.75);
+box-shadow: inset -1px 7px 33px 5px rgba(0,0,0,0.75);
 }
 .search-item__title {
     text-transform: uppercase;
@@ -81,7 +85,7 @@ body {
     transition: all 0.2s ease-in-out;
 }
 .search-item__link:hover {
-    color: var(--darkGreen);
+    color: black;
 
 }
 @media screen and (main-width:992px) {
