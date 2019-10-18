@@ -6,7 +6,7 @@ This app was created using JavaScript, CSS and HTML. The user can input a search
 
 # Preview
 
- ! [Wiki -preview](./wiki.PNG)
+ ![Wiki -preview](./wiki.PNG)
 
  # Technologies
 
