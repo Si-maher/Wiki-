@@ -10,9 +10,9 @@ This app was created using JavaScript, CSS and HTML. The user can input a search
 
  # Technologies
 
- *Javascript
- *CSS
- *HTML
+ * Javascript
+ * CSS
+ * HTML
 
  # Author
 
